@@ -7,59 +7,40 @@ import {
   Zap,
 } from "lucide-react";
 
-// Stats Data
-export const statsData = [
-  {
-    value: "50K+",
-    label: "Active Users",
-  },
-  {
-    value: "$2B+",
-    label: "Transactions Tracked",
-  },
-  {
-    value: "99.9%",
-    label: "Uptime",
-  },
-  {
-    value: "4.9/5",
-    label: "User Rating",
-  },
-];
 
 // Features Data
 export const featuresData = [
   {
     icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
-    title: "Advanced Analytics",
+    title: "Advanced Insights",
     description:
-      "Get detailed insights into your spending patterns with AI-powered analytics",
+      "Analyze your spending habits with AI-driven analytics for smarter decisions.",
   },
   {
     icon: <Receipt className="h-8 w-8 text-blue-600" />,
-    title: "Smart Receipt Scanner",
+    title: "Smart Receipt Reader",
     description:
-      "Extract data automatically from receipts using advanced AI technology",
+      "Easily extract key details from receipts using cutting-edge AI technology.",
   },
   {
     icon: <PieChart className="h-8 w-8 text-blue-600" />,
-    title: "Budget Planning",
-    description: "Create and manage budgets with intelligent recommendations",
+    title: "Intelligent Budgeting",
+    description: "Plan and track your budgets with personalized recommendations.",
   },
   {
     icon: <CreditCard className="h-8 w-8 text-blue-600" />,
-    title: "Multi-Account Support",
-    description: "Manage multiple accounts and credit cards in one place",
+    title: "Account Aggregation",
+    description: "Consolidate multiple accounts and cards into one streamlined platform.",
   },
   {
     icon: <Globe className="h-8 w-8 text-blue-600" />,
-    title: "Multi-Currency",
-    description: "Support for multiple currencies with real-time conversion",
+    title: "Global Currency Support",
+    description: "Seamlessly manage multiple currencies with live exchange rates.",
   },
   {
     icon: <Zap className="h-8 w-8 text-blue-600" />,
-    title: "Automated Insights",
-    description: "Get automated financial insights and recommendations",
+    title: "Automated Financial Tips",
+    description: "Receive personalized, real-time financial advice and insights.",
   },
 ];
 
@@ -82,30 +63,5 @@ export const howItWorksData = [
     title: "3. Get Insights",
     description:
       "Receive AI-powered insights and recommendations to optimize your finances",
-  },
-];
-
-// Testimonials Data
-export const testimonialsData = [
-  {
-    name: "Sarah Johnson",
-    role: "Small Business Owner",
-    image: "https://randomuser.me/api/portraits/women/75.jpg",
-    quote:
-      "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
-  },
-  {
-    name: "Michael Chen",
-    role: "Freelancer",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
-    quote:
-      "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
-  },
-  {
-    name: "Emily Rodriguez",
-    role: "Financial Advisor",
-    image: "https://randomuser.me/api/portraits/women/74.jpg",
-    quote:
-      "I recommend Welth to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
   },
 ];
